@@ -6,7 +6,9 @@
   background-color: rgba(26, 25, 25, 0.945);
   display: flex;
   flex-direction: column;
+  z-index: 1000;
 }
+
 .profile-pic {
   position: relative;
   top: 0;
@@ -16,7 +18,7 @@
 
 .sidebar-name {
   position: absolute;
-  top: 20.8%;
+  top: 22%;
   background-color: rgba(4, 65, 65, 0.877);
   color: white;
   padding: 5%;
@@ -56,6 +58,7 @@
 .social-media {
   display: flex;
 }
+
 .social-media-link {
   margin: 10%;
 }

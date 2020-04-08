@@ -1,0 +1,37 @@
+.video-container {
+  height: 100%;
+  position: relative;
+
+}
+
+#video-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(40, 40, 40, 0.3);
+  position: absolute;
+
+}
+
+.home-name {
+  z-index: 1000;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  font-family: "Josefin Sans",
+    sans-serif;
+  font-weight: 600;
+  font-size: 6rem;
+  color: rgb(8, 8, 8);
+}
+
+.tag-line {
+  z-index: 1000;
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  font-family: "Josefin Sans",
+    sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  color: rgb(8, 8, 8);
+}

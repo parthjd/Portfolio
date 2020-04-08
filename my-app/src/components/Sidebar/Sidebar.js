@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./Sidebar.scss";
 
 export default function Sidebar() {
@@ -37,6 +37,7 @@ export default function Sidebar() {
           Contact
         </Link>
       </Router>
+
       <section className="social-media">
         <a
           href="https://github.com/parthjd"
