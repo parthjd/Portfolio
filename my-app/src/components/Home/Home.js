@@ -1,21 +1,7 @@
 import React from "react";
 import ReactPlayer from "react-player";
+import Typing from "react-typing-animation";
 import "./Home.scss";
-let i = 0;
-const txt = "I am a Full Stack Web Developer.";
-let speed = 50;
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("tag").innerHTML += txt.charAt(i);
-    i++;
-    console.log(i);
-    setTimeout(typeWriter, speed);
-  }
-}
-document.onload = () => {
-  typeWriter();
-};
 
 export default function Home() {
   return (
@@ -24,7 +10,7 @@ export default function Home() {
       <div className="video-container">
         <ReactPlayer
           playing="true"
-          autoPlay
+          autoplay
           loop
           muted
           height="100%"
@@ -34,7 +20,12 @@ export default function Home() {
           id="video"
         />
         <h2 className="home-name">Parth Desai</h2>
-        <p id="tag"></p>
+        <Typing className="tag" speed={100}>
+          <span>I am a </span>
+          <span>Passionate Developer.</span>
+          <Typing.Backspace count={21} delay={2000} />
+          <span>Full Stack Developer.</span>
+        </Typing>
       </div>
     </main>
   );
