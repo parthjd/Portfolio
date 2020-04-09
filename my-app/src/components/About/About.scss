@@ -1,7 +1,14 @@
+.about-page {
+  background: rgb(250, 236, 196);
+  background: radial-gradient(circle, rgb(253, 234, 193) 0%, rgb(206, 133, 59) 100%);
+  height: 100vh;
+
+}
+
 .wrapper {
   margin-right: auto;
   margin-left: auto;
-  margin-top: 5%;
+  // margin-top: 5%;
   max-width: 1080px;
   padding-right: 10px;
   padding-left: 10px;
@@ -19,18 +26,22 @@
   color: rgb(75, 35, 3);
   font-weight: 800;
   border-bottom: 2px dotted;
-  border-color: goldenrod;
+  border-color: rgb(116, 84, 5);
+  padding-top: 10%;
+  letter-spacing: .8px;
 }
 
 .about-content {
   margin-right: 10%;
+
 }
 
 .bio {
   font-family: 'Raleway',
     sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 2.5;
+  letter-spacing: .5px;
 }
 
 .signature {
@@ -50,7 +61,7 @@
   font-family: 'Raleway',
     sans-serif;
   color: rgb(75, 35, 3);
-  border-bottom: 2px groove;
+  border-bottom: 3px groove;
   border-color: goldenrod;
 }
 
@@ -69,7 +80,7 @@ ul {
 
 .title {
   font-weight: 800;
-  border-bottom: 3px solid goldenrod;
+  border-bottom: 4px groove goldenrod;
   // border-radius: 5px;
   margin-right: 2%;
   font-family: 'Raleway',
