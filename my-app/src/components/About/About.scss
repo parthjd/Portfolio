@@ -1,0 +1,106 @@
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+  max-width: 1080px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.about-main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.about-me {
+  font-family: 'Raleway',
+    sans-serif;
+  font-size: 2.5rem;
+  color: rgb(75, 35, 3);
+  font-weight: 800;
+  border-bottom: 2px dotted;
+  border-color: goldenrod;
+}
+
+.about-content {
+  margin-right: 10%;
+}
+
+.bio {
+  font-family: 'Raleway',
+    sans-serif;
+  font-size: 1rem;
+  line-height: 2.5;
+}
+
+.signature {
+  height: 50%;
+  width: 40%;
+
+}
+
+.about-contact {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.personal-info {
+  font-size: 1.5rem;
+  font-family: 'Raleway',
+    sans-serif;
+  color: rgb(75, 35, 3);
+  border-bottom: 2px groove;
+  border-color: goldenrod;
+}
+
+
+li {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 15%;
+}
+
+ul {
+  padding: 0;
+  margin: 5% 0% 0% 0%;
+}
+
+.title {
+  font-weight: 800;
+  border-bottom: 3px solid goldenrod;
+  // border-radius: 5px;
+  margin-right: 2%;
+  font-family: 'Raleway',
+    sans-serif;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.value {
+  font-family: 'Raleway',
+    sans-serif;
+  font-weight: 400;
+}
+
+.download-resume {
+  font-family: 'Raleway',
+    sans-serif;
+  text-decoration: none;
+  color: rgb(44, 32, 0);
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  padding: 4%;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 6px;
+  font-weight: 900;
+  letter-spacing: .5px;
+  text-align: center;
+}
+
+.download-resume:hover {
+  background-color: rgb(88, 63, 0);
+  color: white;
+}

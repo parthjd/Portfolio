@@ -7,27 +7,43 @@
 #video-overlay {
   width: 100%;
   height: 100%;
-  background-color: rgba(26, 24, 24, 0.829);
+  background-color: rgba(78, 45, 23, 0.61);
+  background-blend-mode: overlay;
   position: absolute;
-  top: 0;
 }
 
 .home-name {
   position: absolute;
-  top: 20%;
+  top: 22%;
   left: 40%;
   font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
   font-weight: 600;
   font-size: 6rem;
-  color: rgb(75, 35, 3);
+  color: goldenrod;
 }
 
 .tag {
   position: absolute;
-  top: 40%;
-  left: 38%;
+  top: 44%;
+  left: 40%;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 600;
   font-size: 3rem;
-  color: rgb(255, 255, 255);
+  color: rgb(253, 215, 119);
+
+}
+
+.last-name {
+  color: rgb(253, 215, 119);
+}
+
+.quality {
+  color: goldenrod;
+  border-bottom: 4px solid rgb(75, 35, 3);
+}
+
+main {
+  max-height: 100vh;
+  overflow: hidden;
 }
