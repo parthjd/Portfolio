@@ -2,10 +2,10 @@ import React from "react";
 import "./About.scss";
 export default function About() {
   return (
-    <section className="about-page">
+    <main className="about-page">
       <div className="wrapper">
         <h2 className="about-me"> About Me</h2>
-        <main className="about-main">
+        <section className="about-main">
           <div className="about-content">
             <p className="bio">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
@@ -58,8 +58,8 @@ export default function About() {
               Download Resume
             </a>
           </div>
-        </main>
+        </section>
       </div>
-    </section>
+    </main>
   );
 }

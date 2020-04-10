@@ -1,8 +1,9 @@
 .about-page {
   background: rgb(250, 236, 196);
-  background: radial-gradient(circle, rgb(253, 234, 193) 0%, rgb(206, 133, 59) 100%);
+  background: radial-gradient(circle,
+      rgb(253, 234, 193) 0%,
+      rgb(206, 133, 59) 100%);
   height: 100vh;
-
 }
 
 .wrapper {
@@ -20,51 +21,44 @@
 }
 
 .about-me {
-  font-family: 'Raleway',
-    sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 2.5rem;
   color: rgb(75, 35, 3);
   font-weight: 800;
   border-bottom: 2px dotted;
   border-color: rgb(116, 84, 5);
-  padding-top: 10%;
-  letter-spacing: .8px;
+  padding-top: 8%;
+  letter-spacing: 0.8px;
 }
 
 .about-content {
   margin-right: 10%;
-
 }
 
 .bio {
-  font-family: 'Raleway',
-    sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.2rem;
-  line-height: 2.5;
-  letter-spacing: .5px;
+  line-height: 2;
+  letter-spacing: 0.5px;
 }
 
 .signature {
   height: 50%;
   width: 40%;
-
 }
 
 .about-contact {
   display: flex;
   flex-direction: column;
-
 }
 
 .personal-info {
   font-size: 1.5rem;
-  font-family: 'Raleway',
-    sans-serif;
+  font-family: "Raleway", sans-serif;
   color: rgb(75, 35, 3);
   border-bottom: 3px groove;
   border-color: goldenrod;
 }
-
 
 li {
   text-decoration: none;
@@ -83,21 +77,18 @@ ul {
   border-bottom: 4px groove goldenrod;
   // border-radius: 5px;
   margin-right: 2%;
-  font-family: 'Raleway',
-    sans-serif;
-  letter-spacing: .5px;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
 }
 
 .value {
-  font-family: 'Raleway',
-    sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
 }
 
 .download-resume {
-  font-family: 'Raleway',
-    sans-serif;
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
   color: rgb(44, 32, 0);
   text-transform: uppercase;
@@ -107,7 +98,7 @@ ul {
   border: none;
   border-radius: 6px;
   font-weight: 900;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   text-align: center;
 }
 

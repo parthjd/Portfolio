@@ -5,7 +5,7 @@ import "./Home.scss";
 
 export default function Home() {
   return (
-    <main>
+    <main className="main-home">
       <div id="video-overlay" />
       <ReactPlayer
         playing="true"

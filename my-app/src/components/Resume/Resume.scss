@@ -1,0 +1,149 @@
+.resume-main {
+  background: rgb(250, 236, 196);
+  background: radial-gradient(circle,
+      rgb(253, 234, 193) 0%,
+      rgb(206, 133, 59) 100%);
+}
+
+.resume-heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  color: rgb(75, 35, 3);
+  font-weight: 800;
+  border-bottom: 2px dotted;
+  border-color: rgb(116, 84, 5);
+  padding-top: 8%;
+  letter-spacing: 0.8px;
+}
+
+.resume-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.experience-heading,
+.education-heading {
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: rgb(75, 35, 3);
+  border-bottom: 3px groove;
+  border-radius: 10px;
+  border-color: goldenrod;
+  text-align: center;
+  margin: 8% auto;
+  width: 50%;
+}
+
+// ***** Experience items ****** //
+
+.line-left {
+  width: 3px;
+  height: 100%;
+  background-color: rgb(75, 35, 3);
+  left: -10px;
+  top: 0;
+  position: absolute;
+}
+
+ul.experience-content li {
+  position: relative;
+  margin-left: 10px;
+  padding: 3% 4%;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+ul.experience-content {
+  margin: 10% 0%;
+  list-style: none;
+  position: relative;
+  padding: 0 0 0 50px;
+  width: 100%;
+  font-size: 1.1rem;
+  font-family: "Raleway", sans-serif;
+}
+
+span.to {
+  position: absolute;
+  top: -20px;
+  left: -11px;
+  font-weight: 800;
+}
+
+span.from {
+  position: absolute;
+  bottom: -19px;
+  left: -10px;
+  font-weight: 800;
+}
+
+.content {
+  margin-left: 10px;
+}
+
+.job-title {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.company {
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+// ******* skills ****** //
+
+.skill-heading {
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: rgb(75, 35, 3);
+  border-bottom: 3px groove;
+  border-radius: 10px;
+  border-color: goldenrod;
+  text-align: center;
+  margin: 8% auto;
+  // width: 50%;
+}
+
+.skills-heading {
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: rgb(75, 35, 3);
+  border-bottom: 3px groove;
+  border-radius: 10px;
+  border-color: goldenrod;
+  text-align: center;
+  margin: 0% auto;
+  width: 30%;
+  font-weight: 800;
+}
+
+.skills-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.skills-title {
+  font-size: 1.2rem;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: rgb(75, 35, 3);
+  font-weight: 400;
+  margin-top: 3%;
+}
+
+.skills-progress {
+  margin: 0% 3% 5%;
+}
+
+.progress-bar {
+  font-size: 1.2rem;
+}
+
+.bg-dark {
+  background-color: #4b2303 !important;
+}
