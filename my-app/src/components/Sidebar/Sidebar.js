@@ -12,27 +12,27 @@ function Sidebar() {
       />
       <p className="sidebar-name">Parth Desai</p>
 
-      <Link className="sidebar-menu" to="/">
+      <Link className="sidebar-menu hvr-underline-from-center" to="/">
         <i class="fas fa-home" />
         Home
       </Link>
-      <Link className="sidebar-menu" to="/about">
+      <Link className="sidebar-menu hvr-underline-from-center" to="/about">
         <i class="fas fa-user" />
         About Me
       </Link>
-      <Link className="sidebar-menu" to="/resume">
+      <Link className="sidebar-menu hvr-underline-from-center" to="/resume">
         <i class="fas fa-address-card" />
         Resume
       </Link>
-      <Link className="sidebar-menu" to="/portfolio">
+      <Link className="sidebar-menu hvr-underline-from-center" to="/portfolio">
         <i class="fas fa-briefcase" />
         Portfolio
       </Link>
-      <Link className="sidebar-menu" to="/Blog">
+      <Link className="sidebar-menu hvr-underline-from-center" to="/Blog">
         <i class="fas fa-book" />
         Blog
       </Link>
-      <Link className="sidebar-menu" to="/contact">
+      <Link className="sidebar-menu hvr-underline-from-center" to="/contact">
         <i class="fas fa-envelope" />
         Contact
       </Link>

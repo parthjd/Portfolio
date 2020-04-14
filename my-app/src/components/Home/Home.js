@@ -21,13 +21,13 @@ export default function Home() {
       <h2 className="home-name">
         Parth <span className="last-name">Desai</span>
       </h2>
-      <Typing className="tag" speed={100}>
+      <Typing className="tag" speed={50}>
         <span>I am a </span>
         <span className="quality">Passionate Developer.</span>
         <Typing.Backspace count={21} delay={1500} />
         <span className="quality">Freelancer.</span>
-        <Typing.Backspace count={11} delay={1500} />
-        <span className="quality">Full Stack Developer.</span>
+        <Typing.Backspace count={10} delay={1500} />
+        <span className="quality">ull Stack Developer.</span>
       </Typing>
     </main>
   );
