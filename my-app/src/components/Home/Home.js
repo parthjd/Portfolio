@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="main-page">
       <div id="profile-picture">
-        {/* <img className="pic" src={require("../images/profile-pic.jpg")} /> */}
+        <img className="pic" src={require("../images/profile-pic.png")} />
         <h2 className="home-name">Parth Desai</h2>
         <Typing className="tag" speed={50}>
           <span>I am a </span>

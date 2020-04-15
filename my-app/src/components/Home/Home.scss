@@ -10,16 +10,16 @@
 
 .pic {
   position: absolute;
-  right: 0%;
+  left: 2%;
   bottom: 0;
-  width: 45%;
-  height: 100%;
+  width: 44%;
+  // height: 100%;
 }
 
 .home-name {
   position: absolute;
   top: 40%;
-  left: 30%;
+  right: 20%;
   font-family: "Comic Neue", cursive;
   text-transform: uppercase;
   font-weight: 600;
@@ -30,7 +30,7 @@
 .tag {
   position: absolute;
   top: 50%;
-  left: 31.5%;
+  left: 57.5%;
   font-family: "Comic Neue", cursive;
   font-weight: 600;
   font-size: 2rem;
