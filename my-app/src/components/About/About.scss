@@ -1,14 +1,6 @@
-.about-page {
-  background: rgb(250, 236, 196);
-  background: radial-gradient(circle,
-      rgb(253, 234, 193) 0%,
-      rgb(206, 133, 59) 100%);
-  min-height: 100vh;
-}
-
 .wrapper {
   margin: 0 auto;
-  width: 1080px;
+  width: 1280px;
   padding-right: 10px;
   padding-left: 10px;
 }
@@ -18,15 +10,35 @@
   grid-template-columns: 3fr 1fr;
 }
 
-.about-me {
-  font-family: "Raleway", sans-serif;
+.page-heading {
+  font-family: "Comic Neue", cursive;
+  text-transform: uppercase;
   font-size: 2.5rem;
-  color: rgb(75, 35, 3);
+  color: #fbeecf;
   font-weight: 800;
-  border-bottom: 2px dotted;
-  border-color: rgb(116, 84, 5);
-  padding-top: 8%;
-  letter-spacing: 0.8px;
+  border-bottom: 2px groove #ef6817;
+  border-radius: 10px;
+  padding-top: 10%;
+  letter-spacing: 1.2px;
+  width: 100%;
+  margin: 0 auto;
+  width: 26%;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.page-subheading {
+  font-size: 1.5rem;
+  font-family: "Comic Neue", cursive;
+  text-transform: uppercase;
+  color: #fbeecf;
+  border-bottom: 3px groove;
+  border-radius: 10px;
+  border-color: #ef6817;
+  text-align: center;
+  margin: 0 0 10% 0;
+  font-weight: 600;
+  padding-bottom: 5px;
 }
 
 .about-content {
@@ -34,10 +46,11 @@
 }
 
 .bio {
-  font-family: "Raleway", sans-serif;
+  font-family: "Comic Neue", cursive;
   font-size: 1.2rem;
   line-height: 2;
   letter-spacing: 0.5px;
+  color: #fbeecf;
 }
 
 .signature {
@@ -50,19 +63,12 @@
   flex-direction: column;
 }
 
-.personal-info {
-  font-size: 1.5rem;
-  font-family: "Raleway", sans-serif;
-  color: rgb(75, 35, 3);
-  border-bottom: 3px groove;
-  border-color: goldenrod;
-}
-
 li {
   text-decoration: none;
   list-style: none;
-  padding: 0;
+  padding: 1%;
   margin-bottom: 15%;
+  color: #fbeecf;
 }
 
 ul {
@@ -72,35 +78,37 @@ ul {
 
 .title {
   font-weight: 800;
-  border-bottom: 4px groove goldenrod;
-  // border-radius: 5px;
+  border-bottom: 2px solid #ef6817;
   margin-right: 2%;
-  font-family: "Raleway", sans-serif;
+  font-family: "Comic Neue", cursive;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+  padding-bottom: 2px;
 }
 
 .value {
-  font-family: "Raleway", sans-serif;
+  font-family: "Comic Neue", cursive;
   font-weight: 400;
+  font-size: 1.2rem;
 }
 
 .download-resume {
-  font-family: "Raleway", sans-serif;
+  font-family: "Comic Neue", cursive;
   text-decoration: none;
-  color: rgb(44, 32, 0);
+  color: #131211;
   text-transform: uppercase;
   font-size: 1.3rem;
   padding: 4%;
-  background-color: goldenrod;
+  background-color: #fbeecf;
   border: none;
   border-radius: 6px;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: 0.5px;
   text-align: center;
 }
 
 .download-resume:hover {
-  background-color: rgb(88, 63, 0);
-  color: white;
+  background-color: #ef6817;
+  color: #131211;
+  text-decoration: none;
 }

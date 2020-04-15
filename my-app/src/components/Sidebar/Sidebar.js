@@ -5,39 +5,31 @@ import "./Sidebar.scss";
 function Sidebar() {
   return (
     <div className="sidebar">
-      <img
-        className="profile-pic"
-        src={require("../images/profile-pic.jpg")}
-        alt="image of Parth Desai"
-      />
-      <p className="sidebar-name">Parth Desai</p>
+      <div className="page-links">
+        <Link className="sidebar-menu hvr-underline-from-center" to="/">
+          Home
+        </Link>
+        <Link className="sidebar-menu hvr-underline-from-center" to="/about">
+          About
+        </Link>
+        <Link className="sidebar-menu hvr-underline-from-center" to="/resume">
+          Resume
+        </Link>
+        <Link
+          className="sidebar-menu hvr-underline-from-center"
+          to="/portfolio"
+        >
+          Portfolio
+        </Link>
+        <Link className="sidebar-menu hvr-underline-from-center" to="/Blog">
+          Blog
+        </Link>
+        <Link className="sidebar-menu hvr-underline-from-center" to="/contact">
+          Contact
+        </Link>
+      </div>
 
-      <Link className="sidebar-menu hvr-underline-from-center" to="/">
-        <i class="fas fa-home" />
-        Home
-      </Link>
-      <Link className="sidebar-menu hvr-underline-from-center" to="/about">
-        <i class="fas fa-user" />
-        About Me
-      </Link>
-      <Link className="sidebar-menu hvr-underline-from-center" to="/resume">
-        <i class="fas fa-address-card" />
-        Resume
-      </Link>
-      <Link className="sidebar-menu hvr-underline-from-center" to="/portfolio">
-        <i class="fas fa-briefcase" />
-        Portfolio
-      </Link>
-      <Link className="sidebar-menu hvr-underline-from-center" to="/Blog">
-        <i class="fas fa-book" />
-        Blog
-      </Link>
-      <Link className="sidebar-menu hvr-underline-from-center" to="/contact">
-        <i class="fas fa-envelope" />
-        Contact
-      </Link>
-
-      <section className="social-media">
+      {/* <section className="social-media">
         <a
           href="https://github.com/parthjd"
           target="_blank"
@@ -57,7 +49,7 @@ function Sidebar() {
       </section>
       <p className="copyright">
         2020 © Parth Desai <br /> All rights reserved.
-      </p>
+      </p> */}
     </div>
   );
 }

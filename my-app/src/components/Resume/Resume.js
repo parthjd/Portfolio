@@ -4,9 +4,9 @@ import ProgressBar from "react-bootstrap/ProgressBar";
 
 export default function Resume() {
   return (
-    <main className="resume-main">
+    <main className="main-page">
       <div className="wrapper">
-        <h2 className="resume-heading">Resume</h2>
+        <h2 className="page-heading">Resume</h2>
         <section className="resume-content">
           <div className="experience">
             <h3 className="experience-heading">experience</h3>
@@ -73,7 +73,7 @@ export default function Resume() {
                   <h4 className="job-title">
                     Bachelor of Business Administration
                   </h4>
-                  <h5 className="company">University of Pune - MH, India</h5>
+                  <h5 className="company">University of Pune, India</h5>
                 </div>
                 <span className="to">2011</span>
                 <span className="from">2008</span>
@@ -94,7 +94,6 @@ export default function Resume() {
                 }}
                 variant="dark"
                 label={95}
-                animated
                 now={95}
               />
               <p className="skills-title">CSS / SASS</p>
@@ -106,7 +105,6 @@ export default function Resume() {
                 }}
                 variant="dark"
                 label={90}
-                animated
                 now={90}
               />
               <p className="skills-title">JAVASCRIPT</p>
@@ -118,7 +116,6 @@ export default function Resume() {
                 }}
                 variant="dark"
                 label={85}
-                animated
                 now={85}
               />
               <p className="skills-title">Node.js</p>
@@ -130,7 +127,6 @@ export default function Resume() {
                 }}
                 variant="dark"
                 label={80}
-                animated
                 now={80}
               />
             </div>
@@ -144,7 +140,6 @@ export default function Resume() {
                 }}
                 variant="dark"
                 label={75}
-                animated
                 now={75}
               />
               <p className="skills-title">Postgres / SQL</p>
@@ -156,7 +151,6 @@ export default function Resume() {
                 }}
                 variant="dark"
                 label={80}
-                animated
                 now={80}
               />
               <p className="skills-title">Ruby on Rails</p>
@@ -168,7 +162,6 @@ export default function Resume() {
                 }}
                 variant="dark"
                 label={75}
-                animated
                 now={75}
               />
               <p className="skills-title">Express</p>
@@ -180,7 +173,6 @@ export default function Resume() {
                 }}
                 variant="dark"
                 label={70}
-                animated
                 now={70}
               />
             </div>

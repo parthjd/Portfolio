@@ -1,27 +1,8 @@
-.contact-main {
-  background: rgb(170, 118, 121);
-  background: radial-gradient(circle, rgba(170, 118, 121, 1) 0%, rgba(187, 168, 157, 1) 100%);
-  min-height: 100vh;
-}
-
-.contact-heading {
-  font-family: "Raleway",
-    sans-serif;
-  font-size: 2.5rem;
-  color: #77A8AB;
-  font-weight: 800;
-  border-bottom: 2px dotted;
-  border-color: rgb(116, 84, 5);
-  padding-top: 8%;
-  letter-spacing: 0.8px;
-}
-
 .form-title {
   font-size: 1.5rem;
-  font-family: "Raleway",
-    sans-serif;
+  font-family: "Comic Neue", cursive;
   text-transform: uppercase;
-  color: #F3D942;
+  color: #f3d942;
   border-bottom: 3px groove;
   border-radius: 10px;
   border-color: goldenrod;
@@ -33,6 +14,12 @@
 .input-section {
   display: flex;
   flex-direction: column;
+  margin-top: 10%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
 }
 
 .name-email {
@@ -42,16 +29,13 @@
 
 .input-section .name-email input,
 .message {
-  background-color: transparent;
-  border: 2px groove #77A8AB;
+  background-color: #fbeecf;
   border-radius: 4px;
   padding: 1.5%;
   margin: 0 2%;
   font-size: 1.2rem;
-  font-family: "Raleway",
-    sans-serif;
-  color: #F3D942;
-
+  font-family: "Comic Neue", cursive;
+  color: #000000;
 }
 
 .input-section .message {
@@ -62,13 +46,13 @@
 
 .input-section .form-button {
   margin: 0 auto;
-  font-family: "Raleway", sans-serif;
+  font-family: "Comic Neue", cursive;
   text-decoration: none;
-  color: #4D476C;
+  color: #131211;
   text-transform: uppercase;
   font-size: 1.2rem;
-  padding: 2%;
-  background-color: #F3D942;
+  padding: 1%;
+  background-color: #fbeecf;
   border: none;
   border-radius: 6px;
   font-weight: 900;
@@ -77,8 +61,8 @@
 }
 
 .input-section .form-button:hover {
-  background-color: rgb(109, 66, 2);
-  color: white;
+  background-color: #ef6817;
+  color: #131211;
 }
 
 // ****** FOOTER SECTION STYLE ***** //
@@ -87,7 +71,7 @@
   display: flex;
   justify-content: space-between;
   text-align: center;
-  margin: 8% 1% 3% 1%;
+  padding: 8% 1% 3% 1%;
 }
 
 .contact-social {
@@ -96,13 +80,13 @@
 }
 
 .contact-footer .contact-social .fas {
-  font-size: 3.5rem;
-  color: rgb(75, 35, 3);
+  font-size: 3rem;
+  color: #ef6817;
 }
 
 .contact-type {
-  font-family: "Raleway", sans-serif;
-  color: rgb(75, 35, 3);
+  font-family: "Comic Neue", cursive;
+  color: #fbeecf;
   // text-transform: uppercase;
   font-size: 1.3rem;
   margin: 3% 1%;

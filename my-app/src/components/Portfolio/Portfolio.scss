@@ -1,79 +1,85 @@
 .portfolio-main {
-  background: rgb(250, 236, 196);
-  background: radial-gradient(circle,
-      rgb(253, 234, 193) 0%,
-      rgb(206, 133, 59) 100%);
+  background: #131211;
   min-height: 100vh;
 }
 
-.portfolio-heading {
-  font-family: "Raleway", sans-serif;
-  font-size: 2.5rem;
-  color: rgb(75, 35, 3);
-  font-weight: 800;
-  border-bottom: 2px dotted;
-  border-color: rgb(116, 84, 5);
-  padding-top: 8%;
-  letter-spacing: 0.8px;
+.project-heading {
+  font-size: 1.8rem;
+  font-family: "Comic Neue", cursive;
+  text-transform: uppercase;
+  color: #f2efe6;
+  border-bottom: 3px groove;
+  // border-radius: 10px;
+  border-color: #1d9e65;
+  text-align: center;
+  margin: 6% auto 0%;
+  width: 25%;
+  font-weight: 600;
 }
 
-.project-heading {
-  font-size: 1.5rem;
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  color: rgb(75, 35, 3);
-  border-bottom: 3px groove;
-  border-radius: 10px;
-  border-color: goldenrod;
-  text-align: center;
-  margin: 5% auto;
-  width: 50%;
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
 }
 
 // ****** PROJECT ITEM STYLES ******* //
 
 .container {
-  margin: 0 auto 2% auto;
+  // margin: 0 auto 2% auto;
   display: grid;
-  grid-column-gap: 2%;
-  grid-row-gap: 2%;
-  font-family: "Raleway",
-    sans-serif;
+
+  grid-column-gap: 1%;
+  grid-row-gap: 1%;
+  // grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-family: "Comic Neue", cursive;
+  padding: 1%;
+  width: 100%;
+  margin-top: 10%;
 }
 
 .project1 {
   grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-color: #facc32;
+  padding: auto 0;
+  // height: 25rem;
 }
 
 .project2 {
   grid-column-start: 2;
   grid-column-end: 2;
   grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-end: 4;
+  background-color: #5daf72;
+  padding: 1%;
 }
 
 .project3 {
   grid-column-start: 3;
   grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-color: rgb(103, 77, 189);
+  padding: 1%;
 }
 
 .project4 {
-  grid-column-start: 2;
-  grid-column-end: 2;
-  grid-row-start: 3;
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 1;
   grid-row-end: 4;
+  background-color: #fc4f89;
+  padding: 1%;
 }
 
 .ih-item.square {
   position: relative;
-  width: 22.5rem;
-  height: 13.5rem;
-  border: 8px groove rgba(187, 113, 56, 0.603);
   border-radius: 8px;
   box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.466);
 }
@@ -100,9 +106,9 @@
 }
 
 .project-image {
-
   width: 100%;
-  height: 100%;
+  // height: 100%;
+  // margin: 5%;
 }
 
 .ih-item.square.effect15.left_to_right .info {
@@ -125,7 +131,7 @@
 }
 
 .ih-item.square.effect15.colored .info {
-  background: #2e1e07c9;
+  background: #ef6817;
 }
 
 .ih-item.square.effect15 .img {
@@ -154,7 +160,7 @@
 
 .ih-item.square.effect15 .info p {
   font-style: italic;
-  font-size: 0.9rem;
+  font-size: 1rem;
   position: relative;
   color: rgb(255, 255, 255);
   padding: 20px 20px 20px;

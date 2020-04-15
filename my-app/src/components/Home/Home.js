@@ -5,22 +5,9 @@ import "./Home.scss";
 
 export default function Home() {
   return (
-    <main className="main-home">
+    <main className="main-page">
       <div id="video-overlay" />
-      <ReactPlayer
-        playing="true"
-        autoplay
-        loop
-        muted
-        height="100%"
-        width="100%"
-        url="/Videos/Beach.mp4"
-        type="video/mp4"
-        id="video"
-      />
-      <h2 className="home-name">
-        Parth <span className="last-name">Desai</span>
-      </h2>
+      <h2 className="home-name">Parth Desai</h2>
       <Typing className="tag" speed={50}>
         <span>I am a </span>
         <span className="quality">Passionate Developer.</span>

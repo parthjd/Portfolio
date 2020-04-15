@@ -2,9 +2,9 @@ import React from "react";
 import "./About.scss";
 export default function About() {
   return (
-    <main className="about-page">
+    <main className="main-page">
       <div className="wrapper">
-        <h2 className="about-me"> About Me</h2>
+        <h2 className="page-heading">About Me</h2>
         <section className="about-main">
           <div className="about-content">
             <p className="bio">
@@ -30,7 +30,7 @@ export default function About() {
             />
           </div>
           <div className="about-contact">
-            <h3 className="personal-info">Personal Information</h3>
+            <h3 className="page-subheading">Personal Information</h3>
             <ul>
               <li>
                 <span class="title">Name: </span>
