@@ -3,6 +3,19 @@
   background-color: #131211;
 }
 
+.profile-picture {
+  position: relative;
+  overflow: hidden;
+}
+
+.pic {
+  position: absolute;
+  right: 0%;
+  bottom: 0;
+  width: 45%;
+  height: 100%;
+}
+
 .home-name {
   position: absolute;
   top: 40%;
