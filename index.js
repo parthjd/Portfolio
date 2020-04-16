@@ -8,8 +8,6 @@ const PORT = process.env.PORT || 3001;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use(express.static("client/build"));
-
 if (process.env.NODE_ENV === "production") {
   // Express will serve up production assets
   app.use(express.static("client/build"));
