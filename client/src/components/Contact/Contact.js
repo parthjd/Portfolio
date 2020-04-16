@@ -40,7 +40,8 @@ class Contact extends Component {
   }
   handleClick = (e) => {
     document.getElementById("button").innerHTML = "Message Sent";
-    document.getElementById("button").style.backgroundColor = "#ef6817";
+    document.getElementById("button").style.backgroundColor = "#1d9e65";
+    document.getElementById("button").style.border = "none";
   };
 
   render() {
