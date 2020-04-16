@@ -59,7 +59,7 @@ app.post("/api/form", (req, res) => {
     };
 
     let mailOption = {
-      from: `${req.body.email}`, // sender address
+      from: process.env.EMAIL, // sender address
       to: process.env.EMAIL, // list of receivers
       subject: `Message from ${req.body.name}`, // Subject line
       text: req.body.message, // plain text body
