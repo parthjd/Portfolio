@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 // Express will serve up production assets
 app.use(express.static("client/build"));
-app.use(express.static(path.resolve(__dirname, "client", "src")));
+app.use(express.static(path.resolve(__dirname, "client", "public")));
 
 // Express serve up index.html file if it doesn't recognize route
 app.get("*", (req, res) => {
