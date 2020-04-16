@@ -2,6 +2,7 @@
   "name": "Portfolio",
   "version": "1.0.0",
   "private": true,
+  "heroku-postbuild": "cd client && npm install && npm run build",
   "engines": {
     "node": "12.6.0",
     "npm": "6.13.7"
