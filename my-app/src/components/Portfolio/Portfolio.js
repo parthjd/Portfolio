@@ -1,6 +1,5 @@
 import React from "react";
 import "./Portfolio.scss";
-import ImageContentHover from "react-image-hover";
 
 export default function Portfolio() {
   return (

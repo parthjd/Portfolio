@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, withRouter, Link } from "react-router-dom";
+import { withRouter, Link } from "react-router-dom";
 import "./Sidebar.scss";
 
 function Sidebar() {

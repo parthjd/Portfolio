@@ -1,5 +1,4 @@
 import React from "react";
-import ReactPlayer from "react-player";
 import Typing from "react-typing-animation";
 import "./Home.scss";
 

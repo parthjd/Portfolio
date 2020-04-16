@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./Contact.scss";
 import axios from "axios";
+// import Alert from "react-bootstrap/Alert";
+// import Button from "react-bootstrap/Button";
 
 class Contact extends Component {
   constructor() {
@@ -23,12 +25,23 @@ class Contact extends Component {
   async handleSubmit(e) {
     e.preventDefault();
     const { name, email, message } = this.state;
+
+    // if (this.state == null) {
+    //   console.log("hello");
     const form = await axios.post("/api/form", {
       name,
       email,
       message,
     });
+    // alert("Thank you!! Your message has been sent!");
+    // } else {
+    //   alert("Please fill out the details before sending message.");
+    // }
   }
+  handleClick = (e) => {
+    document.getElementById("button").innerHTML = "Message Sent";
+    document.getElementById("button").style.backgroundColor = "#ef6817";
+  };
 
   render() {
     return (
@@ -36,7 +49,11 @@ class Contact extends Component {
         <div className="wrapper">
           <h2 className="page-heading">Get in Touch</h2>
           <section className="input-section">
-            <form className="contact-form" onSubmit={this.handleSubmit}>
+            <form
+              name="contact-form"
+              className="contact-form"
+              onSubmit={this.handleSubmit}
+            >
               <div className="name-email">
                 <input
                   className="client-name"
@@ -60,7 +77,12 @@ class Contact extends Component {
                 placeholder="How can I Help you?"
                 onChange={this.handleChange}
               />
-              <button className="form-button" type="submit">
+              <button
+                id="button"
+                onClick={this.handleClick}
+                className="form-button"
+                type="submit"
+              >
                 Send Message
               </button>
             </form>

@@ -8,6 +8,7 @@ import Resume from "./components/Resume/Resume";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
+import Blog from "./components/Blog/Blog";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
         </Route>
         <Route path="/portfolio">
           <Portfolio />
+        </Route>
+        <Route path="/blog">
+          <Blog />
         </Route>
         <Route path="/contact">
           <Contact />
