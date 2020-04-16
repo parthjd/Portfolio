@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 const app = express();
 require("dotenv").config();
-
+app.use(express.static("client/build"));
 const PORT = process.env.PORT || 3001;
 
 app.use(bodyParser.json());
