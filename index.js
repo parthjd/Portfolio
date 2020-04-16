@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 if (process.env.NODE_ENV === "production") {
   // Express will serve up production assets
-  express.static(path_join(__dirname, "/client/build"));
+  app.use("/static", express.static(path.join(__dirname, "public")));
 
   // Express serve up index.html file if it doesn't recognize route
   const path = require("path");
