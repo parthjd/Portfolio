@@ -4,6 +4,7 @@ const nodemailer = require("nodemailer");
 const app = express();
 require("dotenv").config();
 const PORT = process.env.PORT || 3001;
+const path = require("path");
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -13,7 +14,6 @@ app.use(express.static("client/build"));
 app.use(express.static(path.resolve(__dirname, "client", "src")));
 
 // Express serve up index.html file if it doesn't recognize route
-const path = require("path");
 app.get("*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
 });
