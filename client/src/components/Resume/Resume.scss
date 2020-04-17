@@ -79,6 +79,10 @@ span.from {
 
 // ******* skills ****** //
 
+.skills {
+  padding-bottom: 3%;
+}
+
 .skills-heading {
   font-size: 1.5rem;
   font-family: "Comic Neue", cursive;
@@ -119,4 +123,58 @@ span.from {
 
 .bg-dark {
   background-color: #4b2303 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .resume-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience-heading,
+  .education-heading {
+    font-size: 1.1rem;
+
+    margin: 0% auto;
+  }
+
+  .line-left {
+    width: 2px;
+  }
+
+
+  ul.experience-content {
+    margin: 10% 0%;
+    list-style: none;
+    position: relative;
+    // padding: 0 0 0 50px;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  ul.experience-content li {
+    margin: 20% 0%;
+  }
+
+  .job-title {
+    font-size: 1.1rem;
+  }
+
+  .company {
+    font-size: 0.9rem;
+  }
+
+  .skills-section {
+    margin-bottom: 10%;
+  }
+
+  .skills-title {
+    font-size: 1rem;
+    margin-top: 10%;
+  }
+
+  .skills-heading {
+    font-size: 1.1rem;
+
+  }
 }

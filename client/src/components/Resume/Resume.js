@@ -179,6 +179,7 @@ export default function Resume() {
           </section>
         </footer>
       </div>
+      <p className="copyright">2020 © Parth Desai. All rights reserved.</p>
     </main>
   );
 }

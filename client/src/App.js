@@ -10,6 +10,8 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
 import Blog from "./components/Blog/Blog";
 
+import { CSSTransition, TransitionGroup } from "react-transition-group";
+
 function App() {
   return (
     <Router>

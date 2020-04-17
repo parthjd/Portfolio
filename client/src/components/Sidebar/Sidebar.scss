@@ -2,11 +2,11 @@
   position: fixed;
   top: 0;
   width: 100%;
-  min-height: 3vh;
-  background-color: transparent;
+  min-height: 5%;
   display: flex;
   justify-content: flex-end;
   z-index: 1000;
+  background-color: #131211;
 }
 
 .page-links {
@@ -32,33 +32,7 @@
   text-decoration: none;
 }
 
-.sidebar .sidebar-menu .fas {
-  margin-right: 5%;
-}
 
-.fab {
-  font-size: 1.4rem;
-  color: white;
-  margin-right: 5%;
-}
-
-.social-media {
-  display: flex;
-}
-
-.social-media-link {
-  margin: 10%;
-}
-
-.fab:hover {
-  color: rgb(223, 148, 8);
-}
-
-.copyright {
-  font-size: 0.9rem;
-  margin: 5% auto;
-  color: rgb(247, 208, 137);
-}
 
 // **************************//
 
@@ -90,4 +64,22 @@
 .hvr-underline-from-center:active:before {
   left: 0;
   right: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .page-links {
+    margin-right: 2%;
+    margin-top: 2%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sidebar-menu {
+    padding: 1%;
+    font-size: 0.85rem;
+    padding: 0 1.5%;
+  }
+
 }

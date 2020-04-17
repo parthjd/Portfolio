@@ -1,8 +1,3 @@
-.portfolio-main {
-  background: #131211;
-  min-height: 100vh;
-}
-
 .project-heading {
   font-size: 1.8rem;
   font-family: "Comic Neue", cursive;
@@ -176,4 +171,25 @@
 .ih-item.square.effect15 a:hover .info {
   visibility: visible;
   opacity: 1;
+}
+
+// ***** Media Queries ***** ////
+
+@media only screen and (max-width: 600px) {
+  .container {
+    // margin: 0 auto 2% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    // flex-wrap: wrap;
+  }
+
+  .projects {
+    padding-bottom: 10%;
+  }
+
+  .ih-item.square {
+    margin: 3% 10%;
+  }
+
 }

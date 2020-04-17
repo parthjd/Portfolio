@@ -1,6 +1,9 @@
 .main-page {
   min-height: 100vh;
   background-color: #131211;
+  position: relative;
+  left: 0;
+  right: 0;
 }
 
 .profile-picture {
@@ -12,7 +15,7 @@
   position: absolute;
   left: 2%;
   bottom: 0;
-  width: 42%;
+  width: 40%;
   // height: 100%;
 }
 
@@ -43,4 +46,81 @@
   font-family: "Comic Neue", cursive;
   font-weight: 700;
   font-style: italic;
+}
+
+.sidebar .sidebar-menu .fas {
+  margin-right: 5%;
+}
+
+.fab {
+  font-size: 1.8rem;
+  color: white;
+  padding-bottom: 5%;
+}
+
+.fab:hover {
+  color: #ef6817;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 3%;
+  bottom: 5%;
+}
+
+.social-media-link {
+  padding: 0.7rem;
+}
+
+
+.copyright {
+  position: absolute;
+  bottom: 0.5%;
+  left: 45%;
+  font-size: 0.8rem;
+  color: rgb(247, 208, 137);
+}
+
+//  **** Media Queries *** //
+
+@media only screen and (max-width: 600px) {
+  .home-name {
+    position: absolute;
+    top: 20%;
+    right: 13%;
+    font-family: "Comic Neue", cursive;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #f2efe6;
+  }
+
+  .pic {
+    position: absolute;
+    left: 2%;
+    bottom: 0;
+    width: 95%;
+    // height: 100%;
+  }
+
+  .tag {
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    font-family: "Comic Neue", cursive;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #f2efe6;
+  }
+
+  .copyright {
+    position: absolute;
+    bottom: 0;
+    left: 27.5%;
+    font-size: 0.6rem;
+    color: rgb(247, 208, 137);
+  }
+
 }

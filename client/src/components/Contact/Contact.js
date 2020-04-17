@@ -103,6 +103,7 @@ class Contact extends Component {
             </div>
           </footer>
         </div>
+        <p className="copyright">2020 © Parth Desai. All rights reserved.</p>
       </main>
     );
   }

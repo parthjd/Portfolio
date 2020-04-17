@@ -3,7 +3,7 @@ import "./Portfolio.scss";
 
 export default function Portfolio() {
   return (
-    <main className="portfolio-main">
+    <main className="main-page">
       <div className="wrapper">
         <h2 className="page-heading">Portfolio</h2>
         <section className="projects">
@@ -92,6 +92,7 @@ export default function Portfolio() {
           </div>
         </section>
       </div>
+      <p className="copyright">2020 © Parth Desai. All rights reserved.</p>
     </main>
   );
 }

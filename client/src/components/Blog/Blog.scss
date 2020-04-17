@@ -1,0 +1,30 @@
+.blogs-container {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Comic Neue",
+    cursive;
+  padding: 1%;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.blog-image {
+  width: 100%;
+}
+
+// **** Media queries ******** 
+
+@media only screen and (max-width: 600px) {
+  .blogs-container {
+    // margin: 0 auto 2% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    // flex-wrap: wrap;
+  }
+
+  .blogs {
+    padding-bottom: 10%;
+  }
+
+}

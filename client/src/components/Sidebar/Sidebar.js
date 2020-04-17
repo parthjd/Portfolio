@@ -28,28 +28,6 @@ function Sidebar() {
           Contact
         </Link>
       </div>
-
-      {/* <section className="social-media">
-        <a
-          href="https://github.com/parthjd"
-          target="_blank"
-          className="social-media-link"
-        >
-          {" "}
-          <i class="fab fa-github" />{" "}
-        </a>
-        <a
-          href="https://www.linkedin.com/in/parth-desai-60663178/"
-          target="_blank"
-          className="social-media-link"
-        >
-          {" "}
-          <i class="fab fa-linkedin" />
-        </a>
-      </section>
-      <p className="copyright">
-        2020 © Parth Desai <br /> All rights reserved.
-      </p> */}
     </div>
   );
 }

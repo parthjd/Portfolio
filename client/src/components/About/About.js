@@ -8,21 +8,24 @@ export default function About() {
         <section className="about-main">
           <div className="about-content">
             <p className="bio">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
-              libero iure dolor cupiditate ab sed nulla autem aliquam veritatis
-              aut fugiat voluptas explicabo asperiores in labore possimus
-              voluptatibus quas deserunt enim cumque beatae dolore quam
-              assumenda corrupti. Magnam explicabo similique aut laboriosam ab
-              debitis maiores culpa, eligendi, mollitia deleniti repellendus
-              quia.
+              I had my first encounter with programming back in high school,
+              when I built a Student Information Systems software. Curious to
+              know more, I started learning on my own, coding different
+              languages from home. Passionate and confident about web
+              development, I quit my well-paying job in the travel retail
+              industry in order to develop digital experiences that leave a
+              positive impact on people, environment and the society.
               <br />
-              neque earum, impedit quam molestias mollitia sapiente, aperiam ea!
-              Nulla ut unde consequatur, illo quaerat temporibus quidem eos
-              voluptatem deleniti harum fugiat. Dolores eveniet rem ducimus
-              quaerat voluptatibus inventore odit.Dolores eveniet rem ducimus
-              quaerat voluptatibus inventore odit.Dolores eveniet rem ducimus
-              quaerat voluptatibus inventore odit.Dolores eveniet rem ducimus
-              quaerat voluptatibus inventore odit.
+              Three months of a successful coding bootcamp later, I feel proud
+              to present myself as a full-stack web developer who specializes in
+              fixing front end as well back end issues with ease and accuracy.
+              As a web developer, I strive to do more than just developing a
+              website. I aim to serve my clients by designing and developing
+              websites that have creative designs and powerful features backed
+              by quality content and user friendliness. What differentiates me
+              from my contemporaries is that instead of creating just a website
+              for my clients, I make serious efforts to develop properly crafted
+              experiences and web designs for each of my clients.
             </p>
             <img
               className="signature"
@@ -54,12 +57,17 @@ export default function About() {
               </li>
             </ul>
 
-            <a className="download-resume" href="./Parth-Desai.pdf" download>
+            <a
+              className="download-resume"
+              href="https://www.canva.com/design/DAD0-2ZJCaw/zAOF2GCh_uDq_hn2e9Jebw/view?utm_content=DAD0-2ZJCaw&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
+              target="_blank"
+            >
               Download Resume
             </a>
           </div>
         </section>
       </div>
+      <p className="copyright">2020 © Parth Desai. All rights reserved.</p>
     </main>
   );
 }
