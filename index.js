@@ -24,12 +24,13 @@ app.post("/api/form", (req, res) => {
     <td style="font-size:6px; line-height:10px; padding:0px 0px 0px 0px;" valign="top" align="center">
     <img class="max-width" border="0" style="display:block; color:#000000; text-decoration:none; font-family:Helvetica, arial, sans-serif; font-size:16px; max-width:50% !important; width:50%; height:auto !important;" src="http://cdn.mcauto-images-production.sendgrid.net/739d627c883976c8/f6b348ff-fbad-412d-931c-efa64fb750aa/478x523.png" alt="" width="300" data-responsive="true" data-proportionally-constrained="false">
     </td>
-    <div style="font-family: inherit; text-align: left"><strong>Hello ${req.body.name}! Thanks for reaching out!!</strong></div>
+    <div style="font-family: inherit; text-align: left"><strong>Hi ${req.body.name}, Thanks for reaching out!</strong></div>
     <div style="font-family: inherit; text-align: left"><br></div>
     <div style="font-family: inherit; text-align: left"><span style="font-family: verdana, geneva, sans-serif">I will get back to you within 1-2 business days. For urgent inquires, please call me.&nbsp;</span></div>
     <div style="font-family: inherit; text-align: center"><br></div>
     <div style="font-family: inherit; text-align: inherit"><span style="font-family: verdana, geneva, sans-serif">Cheers,&nbsp;</span></div>
     <div style="font-family: inherit; text-align: inherit"><span style="font-family: verdana, geneva, sans-serif">Parth Desai</span></div>
+    <div style="font-family: inherit; text-align: inherit"><span style="font-family: verdana, geneva, sans-serif">+1 647 - 532 - 0880</span></div>
     `;
 
     const adminEmail = `
