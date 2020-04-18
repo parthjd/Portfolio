@@ -9,7 +9,10 @@ export default function Blog() {
         <section className="blogs">
           <div className="blogs-container">
             <div className="ih-item square colored effect15 left_to_right project2">
-              <a href="#">
+              <a
+                href="https://medium.com/@parthjd28/pair-programming-a-baby-developers-perspective-cce969e98010"
+                target="_blank"
+              >
                 <div className="img">
                   <img
                     className="blog-image"

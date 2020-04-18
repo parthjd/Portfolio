@@ -43,7 +43,7 @@ app.post("/api/form", (req, res) => {
 
     let transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
-      port: 587,
+      port: 465,
       auth: {
         user: process.env.EMAIL,
         pass: process.env.PASSWORD,

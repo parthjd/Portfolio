@@ -29,7 +29,7 @@ export default function Portfolio() {
               </a>
             </div>
             <div className="ih-item square colored effect15 left_to_right project2">
-              <a href="#">
+              <a href="https://rumours.herokuapp.com/" target="_blank">
                 <div className="img">
                   <img
                     className="project-image"
@@ -50,7 +50,10 @@ export default function Portfolio() {
               </a>
             </div>
             <div className="ih-item square colored effect15 left_to_right project4">
-              <a href="#">
+              <a
+                href="https://dreamy-bardeen-0b586b.netlify.app/"
+                target="_blank"
+              >
                 <div className="img">
                   <img
                     className="project-image"
@@ -70,7 +73,7 @@ export default function Portfolio() {
               </a>
             </div>
             <div className="ih-item square colored effect15 left_to_right project1">
-              <a href="#">
+              <a href="#" target="_blank">
                 <div className="img">
                   <img
                     className="project-image"
