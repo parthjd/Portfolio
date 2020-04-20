@@ -26,21 +26,6 @@ export default function Blog() {
                 </div>
               </a>
             </div>
-            <div className="ih-item square colored effect15 left_to_right project3">
-              <a href="#">
-                <div className="img">
-                  <img
-                    className="blog-image"
-                    src="https://lh3.googleusercontent.com/proxy/AEL04ir77n3yUJ8HS8h7f04p_-r63DZ_gUUKdN0gif0S4WWB2FPzxCm0qzTF6EhI59jWr3RjlkStvEQCsgcr5yKW46Fny3BHuG7L-Ao_PxOyitWRgZtef5TOtWEZyylsfx1R5w"
-                    alt="img"
-                  />
-                </div>
-                <div className="info">
-                  <h3>Coming Soon</h3>
-                  <p> New blog will be posted soon.</p>
-                </div>
-              </a>
-            </div>
           </div>
         </section>
       </div>

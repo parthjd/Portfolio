@@ -9,7 +9,7 @@ export default function Portfolio() {
         <section className="projects">
           <div className="container">
             <div className="ih-item square colored effect15 left_to_right project3">
-              <a href="#">
+              <a href="https://github.com/ShivamP96/CustomFitness">
                 <div className="img">
                   <img
                     className="project-image"
@@ -73,7 +73,7 @@ export default function Portfolio() {
               </a>
             </div>
             <div className="ih-item square colored effect15 left_to_right project1">
-              <a href="#" target="_blank">
+              <a href="https://github.com/parthjd/tweeter" target="_blank">
                 <div className="img">
                   <img
                     className="project-image"
