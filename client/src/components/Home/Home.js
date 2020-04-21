@@ -1,4 +1,6 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
+
 import Typing from "react-typing-animation";
 import "./Home.scss";
 
@@ -6,7 +8,9 @@ export default function Home() {
   return (
     <main className="main-page">
       <div id="profile-picture">
-        <img className="pic" src={require("../images/profile-pic.png")} />
+        <Fade left>
+          <img className="pic" src={require("../images/profile-pic.png")} />
+        </Fade>
         <h2 className="home-name">Parth Desai</h2>
         <Typing className="tag" speed={50}>
           <span>I am a </span>

@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Fade from "react-reveal/Fade";
+
 import "./Contact.scss";
 import axios from "axios";
 // import Alert from "react-bootstrap/Alert";
@@ -48,7 +50,9 @@ class Contact extends Component {
     return (
       <main className="main-page">
         <div className="wrapper">
-          <h2 className="page-heading">Get in Touch</h2>
+          <Fade top>
+            <h2 className="page-heading">Get in Touch</h2>
+          </Fade>
           <section className="input-section">
             <form
               name="contact-form"
@@ -56,51 +60,65 @@ class Contact extends Component {
               onSubmit={this.handleSubmit}
             >
               <div className="name-email">
-                <input
-                  className="client-name"
-                  type="text"
-                  name="name"
-                  placeholder="Name"
-                  onChange={this.handleChange}
-                />
-                <input
-                  className="client-name"
-                  type="email"
-                  name="email"
-                  placeholder="E-mail"
-                  onChange={this.handleChange}
-                />
+                <Fade bottom>
+                  <input
+                    className="client-name"
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                    onChange={this.handleChange}
+                  />
+                </Fade>
+                <Fade bottom>
+                  <input
+                    className="client-name"
+                    type="email"
+                    name="email"
+                    placeholder="E-mail"
+                    onChange={this.handleChange}
+                  />
+                </Fade>
               </div>
-              <textarea
-                for="message"
-                name="message"
-                className="message"
-                placeholder="How can I Help you?"
-                onChange={this.handleChange}
-              />
-              <button
-                id="button"
-                onClick={this.handleClick}
-                className="form-button"
-                type="submit"
-              >
-                Send Message
-              </button>
+              <Fade left>
+                <textarea
+                  for="message"
+                  name="message"
+                  className="message"
+                  placeholder="How can I Help you?"
+                  onChange={this.handleChange}
+                />
+              </Fade>
+              <Fade bottom>
+                <button
+                  id="button"
+                  onClick={this.handleClick}
+                  className="form-button"
+                  type="submit"
+                >
+                  Send Message
+                </button>
+              </Fade>
             </form>
           </section>
           <footer className="contact-footer">
-            <div className="contact-social">
-              <i class="fas fa-envelope-open" />
-              <p className="contact-type">parthjd.tech@gmail.com</p>
-            </div>
-            <div className="contact-social">
-              <i class="fas fa-map-marker-alt" />
-              <p className="contact-type">Toronto, Canada</p>
-            </div>
-            <div className="contact-social">
-              <i class="fas fa-phone-alt" />
-              <p className="contact-type">(+1) 647 - 532 - 0880 </p>
-            </div>
+            <Fade top>
+              <div className="contact-social">
+                <i class="fas fa-envelope-open" />
+                <p className="contact-type">parthjd.tech@gmail.com</p>
+              </div>
+            </Fade>
+            <Fade bottom>
+              <div className="contact-social">
+                <i class="fas fa-map-marker-alt" />
+                <p className="contact-type">Toronto, Canada</p>
+              </div>
+            </Fade>
+            <Fade top>
+              <div className="contact-social">
+                <i class="fas fa-phone-alt" />
+                <p className="contact-type">(+1) 647 - 532 - 0880 </p>
+              </div>
+            </Fade>
           </footer>
         </div>
         <p className="copyright">2020 © Parth Desai. All rights reserved.</p>
