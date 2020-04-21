@@ -21,16 +21,18 @@ export default function About() {
                 positive impact on people, environment and the society.
                 <br />
                 Three months of a successful coding bootcamp later, I feel proud
-                to present myself as a full-stack web developer who specializes
-                in fixing front end as well back end issues with ease and
-                accuracy. As a web developer, I strive to do more than just
-                developing a website. I aim to serve my clients by designing and
-                developing websites that have creative designs and powerful
-                features backed by quality content and user friendliness. What
-                differentiates me from my contemporaries is that instead of
-                creating just a website for my clients, I make serious efforts
-                to develop properly crafted experiences and web designs for each
-                of my clients.
+                to present myself as a <strong>
+                  Full Stack Web Developer
+                </strong>{" "}
+                who specializes in fixing front end as well back end issues with
+                ease and accuracy. As a web developer, I strive to do more than
+                just developing a website. I aim to serve my clients by
+                designing and developing websites that have creative designs and
+                powerful features backed by quality content and user
+                friendliness. What differentiates me from my contemporaries is
+                that instead of creating just a website for my clients, I make
+                serious efforts to develop properly crafted experiences and web
+                designs for each of my clients.
               </p>
             </Fade>
             <Fade bottom>
