@@ -5,7 +5,7 @@ export default function About() {
   return (
     <main className="main-page">
       <div className="wrapper">
-        <Fade top>
+        <Fade down>
           <h2 className="page-heading">About Me</h2>
         </Fade>
         <section className="about-main">
@@ -53,7 +53,7 @@ export default function About() {
                   <span class="value">Parth Desai</span>
                 </li>
               </Fade>
-              <Fade right>
+              <Fade left>
                 <li>
                   <span class="title">Residence: </span>
                   <span class="value">Toronto, ON</span>
@@ -65,7 +65,7 @@ export default function About() {
                   <span class="value">parthjd.tech@gmail.com</span>
                 </li>
               </Fade>
-              <Fade right>
+              <Fade left>
                 <li>
                   <span class="title">Phone: </span>
                   <span class="value">(+1) 647 - 532 - 0880 </span>
@@ -78,7 +78,7 @@ export default function About() {
                 </li>
               </Fade>
             </ul>
-            <Fade right>
+            <Fade left>
               <a
                 className="download-resume"
                 href="https://www.canva.com/design/DAD0-2ZJCaw/zAOF2GCh_uDq_hn2e9Jebw/view?utm_content=DAD0-2ZJCaw&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"

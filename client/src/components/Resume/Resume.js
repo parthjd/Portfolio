@@ -1,5 +1,6 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
 
 import "./Resume.scss";
 import ProgressBar from "react-bootstrap/ProgressBar";
@@ -8,16 +9,16 @@ export default function Resume() {
   return (
     <main className="main-page">
       <div className="wrapper">
-        <Fade top>
+        <ScrollAnimation animateIn="fadeInDown" animateOut="fadeOutUp">
           <h2 className="page-heading">Resume</h2>
-        </Fade>
+        </ScrollAnimation>
         <section className="resume-content">
           <div className="experience">
-            <Fade left>
+            <ScrollAnimation animateIn="fadeInDown" animateOut="fadeOutUp">
               <h3 className="experience-heading">experience</h3>
-            </Fade>
+            </ScrollAnimation>
             <ul className="experience-content">
-              <Fade bottom>
+              <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutRight">
                 <li>
                   <span className="line-left"></span>
                   <div className="content">
@@ -33,7 +34,6 @@ export default function Resume() {
                   <span className="to">2020</span>
                   <span className="from">2019</span>
                 </li>
-
                 <li>
                   <span className="line-left"></span>
                   <div className="content">
@@ -50,15 +50,15 @@ export default function Resume() {
                   <span className="to">2019</span>
                   <span className="from">2013</span>
                 </li>
-              </Fade>
+              </ScrollAnimation>
             </ul>
           </div>
           <div className="education">
-            <Fade bottom>
+            <ScrollAnimation animateIn="fadeInDown" animateOut="fadeOutUp">
               <h3 className="education-heading">education</h3>
-            </Fade>
+            </ScrollAnimation>
             <ul className="experience-content">
-              <Fade right>
+              <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutLeft">
                 <li>
                   <span className="line-left"></span>
                   <div className="content">
@@ -92,17 +92,17 @@ export default function Resume() {
                   <span className="to">2011</span>
                   <span className="from">2008</span>
                 </li>
-              </Fade>
+              </ScrollAnimation>
             </ul>
           </div>
         </section>
         <footer className="skills">
-          <Fade bottom>
+          <ScrollAnimation animateIn="fadeInDown" animateOut="fadeOutUp">
             <h3 className="skills-heading">skills</h3>
-          </Fade>
+          </ScrollAnimation>
           <section className="skills-section">
             <div className="skills-progress">
-              <Fade left>
+              <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutRight">
                 <p className="skills-title">HTML</p>
                 <ProgressBar
                   style={{
@@ -147,10 +147,10 @@ export default function Resume() {
                   label={80}
                   now={80}
                 />
-              </Fade>
+              </ScrollAnimation>
             </div>
             <div className="skills-progress">
-              <Fade right>
+              <ScrollAnimation animateIn="fadeInRight" animateOut="fadeOutLeft">
                 <p className="skills-title">React</p>
                 <ProgressBar
                   style={{
@@ -195,7 +195,7 @@ export default function Resume() {
                   label={70}
                   now={70}
                 />
-              </Fade>
+              </ScrollAnimation>
             </div>
           </section>
         </footer>

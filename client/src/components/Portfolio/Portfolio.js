@@ -12,7 +12,7 @@ export default function Portfolio() {
           <div className="container">
             <Fade bottom>
               <div className="ih-item square colored effect15 left_to_right project3">
-                <a href="https://github.com/ShivamP96/CustomFitness">
+                <a href="https://reverent-swartz-9fba30.netlify.app/">
                   <div className="img">
                     <img
                       className="project-image"
