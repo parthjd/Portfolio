@@ -10,7 +10,7 @@ export default function Resume() {
   return (
     <main className="main-page">
       <div className="wrapper">
-        <Fade up>
+        <Fade down>
           <h2 className="page-heading">Resume</h2>
         </Fade>
         <section className="resume-content">

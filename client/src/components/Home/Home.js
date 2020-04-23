@@ -17,12 +17,17 @@ export default function Home() {
           <p className="home-name">Parth Desai</p>
         </Fade>
 
-        <Typing className="tag" speed={50}>
+        <Typing
+          className="tag"
+          speed={25}
+          cursorClassName="cursor"
+          startDelay={1000}
+        >
           <span>I am a </span>
           <span className="quality">Passionate Developer.</span>
-          <Typing.Backspace count={21} delay={1500} />
+          <Typing.Backspace count={21} delay={2000} />
           <span className="quality">Freelancer.</span>
-          <Typing.Backspace count={11} delay={1500} />
+          <Typing.Backspace count={11} delay={2000} />
           <span className="quality">Full Stack Developer.</span>
         </Typing>
       </div>
