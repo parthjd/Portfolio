@@ -41,7 +41,7 @@
   grid-column-end: 1;
   grid-row-start: 1;
   grid-row-end: 4;
-  background-color: #facc32;
+  background-color: #ff8364;
   padding: auto 0;
   // height: 25rem;
 }
@@ -126,7 +126,9 @@
 }
 
 .ih-item.square.effect15.colored .info {
-  background: #ef6817;
+  background: goldenrod;
+
+  ;
 }
 
 .ih-item.square.effect15 .img {
@@ -191,5 +193,4 @@
   .ih-item.square {
     margin: 3% 10%;
   }
-
 }

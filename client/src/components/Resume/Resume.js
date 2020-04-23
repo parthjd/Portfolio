@@ -1,5 +1,6 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
+import Fade from "react-reveal/Fade";
 import "animate.css/animate.min.css";
 
 import "./Resume.scss";
@@ -9,9 +10,9 @@ export default function Resume() {
   return (
     <main className="main-page">
       <div className="wrapper">
-        <ScrollAnimation animateIn="fadeInDown" animateOut="fadeOutUp">
+        <Fade up>
           <h2 className="page-heading">Resume</h2>
-        </ScrollAnimation>
+        </Fade>
         <section className="resume-content">
           <div className="experience">
             <ScrollAnimation animateIn="fadeInDown" animateOut="fadeOutUp">
@@ -97,9 +98,9 @@ export default function Resume() {
           </div>
         </section>
         <footer className="skills">
-          <ScrollAnimation animateIn="fadeInDown" animateOut="fadeOutUp">
+          <Fade down>
             <h3 className="skills-heading">skills</h3>
-          </ScrollAnimation>
+          </Fade>
           <section className="skills-section">
             <div className="skills-progress">
               <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutRight">

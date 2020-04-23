@@ -1,52 +1,58 @@
 .main-page {
   min-height: 100vh;
-  background-color: #131211;
-  // background-image: url("../images/black-linen.png");
+  background-color: #000000;
+  background-image: url("../images/background.png");
+
+  background-size: cover;
   position: relative;
   left: 0;
   right: 0;
-}
-
-.profile-picture {
-  position: relative;
-  overflow: hidden;
 }
 
 .pic {
   position: absolute;
   left: 2%;
   bottom: 0;
-  width: 40%;
-  // height: 100%;
+  width: 37%;
+}
+
+.profile-picture {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  height: 100vh;
+  width: 100%;
 }
 
 .home-name {
   position: absolute;
   top: 40%;
   right: 20%;
-  font-family: "Comic Neue", cursive;
+  font-family: "Chelsea Market", cursive;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 5rem;
-  color: #f2efe6;
+  color: #fdffba;
 }
 
 .tag {
   position: absolute;
-  top: 50%;
-  left: 57.5%;
-  font-family: "Comic Neue", cursive;
+  top: 52.5%;
+  left: 54.5%;
+  font-family: "Chelsea Market", cursive;
   font-weight: 600;
-  font-size: 2rem;
-  color: #f2efe6;
+  font-size: 1.8rem;
+  color: #fdffba;
 }
 
 .quality {
-  color: #f2efe6;
-  border-bottom: 4px solid #ef6817;
-  font-family: "Comic Neue", cursive;
+  color: #ffd800;
+  text-transform: uppercase;
+  border-bottom: 4px solid #fdffba;
+  font-family: "Chelsea Market", cursive;
   font-weight: 700;
-  font-style: italic;
+  font-size: 2rem;
+  // font-style: italic;
 }
 
 .sidebar .sidebar-menu .fas {
@@ -60,7 +66,7 @@
 }
 
 .fab:hover {
-  color: #ef6817;
+  color: #ffd800;
 }
 
 .social-media {
@@ -75,13 +81,12 @@
   padding: 0.7rem;
 }
 
-
 .copyright {
   position: absolute;
   bottom: 0.5%;
   left: 45%;
   font-size: 0.8rem;
-  color: rgb(247, 208, 137);
+  color: #ffd800;
 }
 
 //  **** Media Queries *** //
@@ -104,9 +109,13 @@
 
   .tag {
     position: absolute;
-    top: 28%;
-    left: 10%;
-    font-size: 1.5rem;
+    top: 29%;
+    left: 7.5%;
+    font-size: 1rem;
+  }
+
+  .quality {
+    font-size: 1.4rem;
   }
 
   .copyright {
@@ -115,5 +124,4 @@
     left: 27.5%;
     font-size: 0.6rem;
   }
-
 }

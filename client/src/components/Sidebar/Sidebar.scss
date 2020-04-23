@@ -6,7 +6,7 @@
   display: flex;
   justify-content: flex-end;
   z-index: 1000;
-  background-color: #131211;
+  background-color: #08080877;
 }
 
 .page-links {
@@ -28,11 +28,9 @@
 }
 
 .sidebar-menu:hover {
-  color: #ef6817;
+  color: #ffd800;
   text-decoration: none;
 }
-
-
 
 // **************************//
 
@@ -52,7 +50,7 @@
   left: 51%;
   right: 51.5%;
   bottom: 0;
-  background: #ef6817;
+  background: #ffd800;
   height: 2px;
   transition-property: left, right;
   transition-duration: 0.3s;
@@ -66,9 +64,7 @@
   right: 0;
 }
 
-
 @media only screen and (max-width: 600px) {
-
   .page-links {
     margin-right: 2%;
     margin-top: 2%;
@@ -81,5 +77,4 @@
     font-size: 0.85rem;
     padding: 0 1.5%;
   }
-
 }

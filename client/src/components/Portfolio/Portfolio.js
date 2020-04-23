@@ -10,7 +10,7 @@ export default function Portfolio() {
         </Fade>
         <section className="projects">
           <div className="container">
-            <Fade bottom>
+            <Fade left>
               <div className="ih-item square colored effect15 left_to_right project3">
                 <a href="https://reverent-swartz-9fba30.netlify.app/">
                   <div className="img">
@@ -32,7 +32,7 @@ export default function Portfolio() {
                 </a>
               </div>
             </Fade>
-            <Fade left>
+            <Fade bottom>
               <div className="ih-item square colored effect15 left_to_right project2">
                 <a href="https://rumours.herokuapp.com/" target="_blank">
                   <div className="img">
@@ -55,7 +55,7 @@ export default function Portfolio() {
                 </a>
               </div>
             </Fade>
-            <Fade bottom>
+            <Fade up>
               <div className="ih-item square colored effect15 left_to_right project4">
                 <a
                   href="https://dreamy-bardeen-0b586b.netlify.app/"
@@ -80,7 +80,7 @@ export default function Portfolio() {
                 </a>
               </div>
             </Fade>
-            <Fade bottom>
+            <Fade right>
               <div className="ih-item square colored effect15 left_to_right project1">
                 <a href="https://github.com/parthjd/tweeter" target="_blank">
                   <div className="img">
