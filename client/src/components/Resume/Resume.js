@@ -72,7 +72,7 @@ export default function Resume() {
                 <li>
                   <span className="line-left"></span>
                   <div className="content">
-                    <h4 className="job-title">Full Time Web Development</h4>
+                    <h4 className="job-title">Front End Web Development</h4>
                     <h5 className="company">Juno College - Toronto, ON</h5>
                   </div>
                   <span className="to">2019</span>
