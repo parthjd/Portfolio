@@ -72,6 +72,15 @@ export default function Resume() {
                 <li>
                   <span className="line-left"></span>
                   <div className="content">
+                    <h4 className="job-title">Full Time Web Development</h4>
+                    <h5 className="company">Juno College - Toronto, ON</h5>
+                  </div>
+                  <span className="to">2019</span>
+                  <span className="from">2019</span>
+                </li>
+                <li>
+                  <span className="line-left"></span>
+                  <div className="content">
                     <h4 className="job-title">
                       Post Grad. Global Business Management
                     </h4>
