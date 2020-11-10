@@ -104,19 +104,11 @@
 @media only screen and (max-width: 600px) {
   .home-name {
     position: absolute;
-    top: 20%;
+    top: 17.5%;
     right: 13%;
     font-size: 3rem;
   }
-  .name-con {
-    position: absolute;
-    top: 18%;
-    right: 0%;
-    height: 20%;
-    width: 100%;
-    background-color: #500057a8;
-    z-index: 100;
-  }
+
 
   .pic {
     position: absolute;
@@ -128,13 +120,13 @@
 
   .tag {
     position: absolute;
-    top: 29%;
-    left: 7.5%;
+    top: 28%;
+    left: 11%;
     font-size: 1rem;
   }
 
   .quality {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .copyright {

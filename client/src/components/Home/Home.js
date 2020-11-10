@@ -14,9 +14,6 @@ export default function Home() {
         />
 
         <Fade up>
-          <div>
-            <span className="name-con"></span>
-          </div>
           <p className="home-name">Parth Desai</p>
         </Fade>
 
