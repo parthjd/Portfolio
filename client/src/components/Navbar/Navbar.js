@@ -11,21 +11,25 @@ function Sidebar() {
         <Link className="sidebar-menu hvr-underline-from-center" to="/">
           Home
         </Link>
+        <span className="line">|</span>
         <Link className="sidebar-menu hvr-underline-from-center" to="/about">
           About
         </Link>
+        <span className="line">|</span>
         <Link className="sidebar-menu hvr-underline-from-center" to="/resume">
           Resume
         </Link>
+        <span className="line">|</span>
         <Link
           className="sidebar-menu hvr-underline-from-center"
           to="/portfolio"
         >
           Portfolio
         </Link>
-        <Link className="sidebar-menu hvr-underline-from-center" to="/Blog">
+        <span className="line">|</span>
+        {/* <Link className="sidebar-menu hvr-underline-from-center" to="/Blog">
           Blog
-        </Link>
+        </Link> */}
         <Link className="sidebar-menu hvr-underline-from-center" to="/contact">
           Contact
         </Link>
