@@ -14,12 +14,16 @@ export default function Home() {
         />
 
         <Fade up>
+          <div>
+            <span className="name-con"></span>
+          </div>
           <p className="home-name">Parth Desai</p>
         </Fade>
 
         <div className="tag">
-          <span>I am a </span>
-          <TextLoop>
+          <span>I am a &nbsp;</span>
+
+          <TextLoop fade="true">
             <span className="quality">Passionate Developer.</span>
             <span className="quality">Chelsea FC Fan.</span>
             <span className="quality">Freelancer.</span>

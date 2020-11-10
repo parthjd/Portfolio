@@ -1,6 +1,9 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import "./About.scss";
+
+import { Link } from "react-router-dom";
+
 export default function About() {
   return (
     <main className="main-page">
@@ -39,6 +42,7 @@ export default function About() {
               <img
                 className="signature"
                 src={require("../images/signature.png")}
+                alt="signature"
               />
             </Fade>
           </div>
@@ -80,11 +84,13 @@ export default function About() {
             </ul>
             <Fade left>
               <a
-                className="download-resume"
-                href="https://www.canva.com/design/DAD0-2ZJCaw/zAOF2GCh_uDq_hn2e9Jebw/view?utm_content=DAD0-2ZJCaw&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
+                href="https://docs.google.com/document/d/1NnU3_WwvtTMLY2-kzBIux7KxAP4Vdr3bvZZlsqMPF_Q/edit?usp=sharing"
                 target="_blank"
+                rel="noopener noreferrer"
+                download="RESUME.pdf"
+                className="download-resume"
               >
-                Download Resume
+                View Resume
               </a>
             </Fade>
           </div>

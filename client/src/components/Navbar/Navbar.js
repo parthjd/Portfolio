@@ -1,6 +1,7 @@
 import React from "react";
 
 import { withRouter, Link } from "react-router-dom";
+
 import "./Navbar.scss";
 
 function Sidebar() {
