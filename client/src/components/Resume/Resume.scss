@@ -54,6 +54,7 @@ span.to {
   top: -22px;
   left: -11px;
   font-weight: 800;
+  color: #ffd800;
 }
 
 span.from {
@@ -61,6 +62,7 @@ span.from {
   bottom: -22px;
   left: -10px;
   font-weight: 800;
+  color: #ffd800;
 }
 
 .content {
@@ -70,6 +72,11 @@ span.from {
 .job-title {
   text-transform: uppercase;
   font-size: 1.2rem;
+}
+
+.job-link{
+  text-decoration: none;
+  color: #ffd800;
 }
 
 .company {

@@ -23,13 +23,36 @@ export default function Resume() {
                 <li>
                   <span className="line-left"></span>
                   <div className="content">
-                    <h4 className="job-title">Store CO-Manager</h4>
-                    <h5 className="company">Guess? Inc. - Mississauga, ON</h5>
+                    <h4 className="job-title">Junior Developer</h4>
+                    <h5 className="company">MedEssist Ltd. - Toronto, ON</h5>
                     <p className="job-info">
-                      ➜ Supervised up to 25 employees on the team.
-                      <br />➜ Updated 2500-square-foot store with completely new
-                      floor plan to offer customers more visually pleasing
-                      product and customer experience.
+                      ➜ Developing{" "}
+                      <a
+                        href="https://www.bookmyshot.com"
+                        target="_blank"
+                        className="job-link"
+                        rel="noopener noreferrer"
+                      >
+                        bookmyshot.com
+                      </a>{" "}
+                      - a Flu shot and COVID-19 test booking platform.
+                      <br />➜ Tech stack used HTML, CSS, SASS, React, Firebase,
+                      GitHub, Asana, Zoom, Slack.
+                    </p>
+                  </div>
+                  <span className="to">Current</span>
+                  <span className="from">2020</span>
+                </li>
+                <li>
+                  <span className="line-left"></span>
+                  <div className="content">
+                    <h4 className="job-title">Front End Developer</h4>
+                    <h5 className="company">Templatin - Remote</h5>
+                    <p className="job-info">
+                      ➜ Developing templates for E-commerce websites using
+                      HTML/CSS/Bootstrap and JQUERY.
+                      <br />➜ Tech stack used HTML, CSS, Bootstrap, SASS,
+                      Javascript, JQuery, SQL, Bluehost, GitHub, Slack, Zoom.
                     </p>
                   </div>
                   <span className="to">2020</span>

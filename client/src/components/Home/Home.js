@@ -1,6 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import Typing from "react-typing-animation";
+import TextLoop from "react-text-loop";
 import "./Home.scss";
 
 export default function Home() {
@@ -17,19 +17,15 @@ export default function Home() {
           <p className="home-name">Parth Desai</p>
         </Fade>
 
-        <Typing
-          className="tag"
-          speed={25}
-          cursorClassName="cursor"
-          startDelay={1000}
-        >
+        <div className="tag">
           <span>I am a </span>
-          <span className="quality">Passionate Developer.</span>
-          <Typing.Backspace count={21} delay={2000} />
-          <span className="quality">Freelancer.</span>
-          <Typing.Backspace count={11} delay={2000} />
-          <span className="quality">Full Stack Developer.</span>
-        </Typing>
+          <TextLoop>
+            <span className="quality">Passionate Developer.</span>
+            <span className="quality">Chelsea FC Fan.</span>
+            <span className="quality">Freelancer.</span>
+            <span className="quality">Full Stack Developer.</span>
+          </TextLoop>
+        </div>
       </div>
       <section className="social-media">
         <a
@@ -37,6 +33,7 @@ export default function Home() {
           target="_blank"
           className="social-media-link"
           title="GitHub"
+          rel="noopener noreferrer"
         >
           {" "}
           <i class="fab fa-github" />{" "}
@@ -46,6 +43,7 @@ export default function Home() {
           target="_blank"
           className="social-media-link"
           title="Linkedin"
+          rel="noopener noreferrer"
         >
           {" "}
           <i class="fab fa-linkedin" />

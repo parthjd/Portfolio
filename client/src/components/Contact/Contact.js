@@ -3,8 +3,6 @@ import Fade from "react-reveal/Fade";
 
 import "./Contact.scss";
 import axios from "axios";
-// import Alert from "react-bootstrap/Alert";
-// import Button from "react-bootstrap/Button";
 
 class Contact extends Component {
   constructor() {

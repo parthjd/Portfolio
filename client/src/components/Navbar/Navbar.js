@@ -2,8 +2,6 @@ import React from "react";
 
 import { withRouter, Link } from "react-router-dom";
 import "./Navbar.scss";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
 
 function Sidebar() {
   return (

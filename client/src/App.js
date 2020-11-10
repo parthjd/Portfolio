@@ -9,12 +9,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
 import Blog from "./components/Blog/Blog";
-
-import { CSSTransition, TransitionGroup } from "react-transition-group";
+import AnimatedCursor from "react-animated-cursor";
 
 function App() {
   return (
     <Router>
+      <AnimatedCursor color="254, 216, 56" />
       <Sidebar />
       <Switch>
         <Route path="/" exact>

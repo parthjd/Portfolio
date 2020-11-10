@@ -1,5 +1,5 @@
 import React from "react";
-  import Fade from "react-reveal/Fade";
+import Fade from "react-reveal/Fade";
 
 import "./Blog.scss";
 
@@ -17,6 +17,7 @@ export default function Blog() {
                 <a
                   href="https://medium.com/@parthjd28/pair-programming-a-baby-developers-perspective-cce969e98010"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <div className="img">
                     <img
