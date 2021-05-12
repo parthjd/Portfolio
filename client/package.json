@@ -19,7 +19,7 @@
     "express": "^4.17.1",
     "mdbreact": "^4.25.5",
     "node-sass": "^4.13.1",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.4.16",
     "nodemon": "^2.0.3",
     "react": "^16.13.1",
     "react-animate-on-scroll": "^2.1.5",
